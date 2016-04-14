@@ -42,6 +42,7 @@ call plug#end()
 
 " General
 set nocompatible
+syntax on
 filetype off
 filetype plugin indent on
 
@@ -151,6 +152,12 @@ nnoremap L $
 " Easier redo
 nnoremap U <C-r>
 
+" NERDTree tabs toggle
+nmap <leader>] :NERDTreeToggle<CR>
+
+"split switch
+nnoremap <Leader>[ <C-W>w
+
 " Find files
 nnoremap `f :find<Space>
 
@@ -179,7 +186,7 @@ nmap <leader>s <C-w>s<C-w>j
 
 " Navigate buffers
 nnoremap <silent> 'b :ls<CR>
-nnoremap <silent> \b :bd<CR>
+nnoremap <silent> <leader>b :bd<CR>
 
 " New Tab
 nmap <Leader>n :tabnew<CR>
@@ -190,10 +197,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 " Tab selection
 nmap <leader>0 <Plug>AirlineSelectPrevTab
 nmap <leader>- <Plug>AirlineSelectNextTab
-
-" Keep selection after indent
-vnoremap > ><CR>gv
-vnoremap < <<CR>gv
 
 " Split Swap
 nnoremap <silent> <leader>yw :call WindowSwap#MarkWindowSwap()<CR>
@@ -258,10 +261,7 @@ autocmd VimEnter * call AirlineInit()
 
 " NERDTree
 let g:NERDTreeMapChangeRoot="`"
-let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
-
-nmap <Leader>] :NERDTreeTabsToggle<CR>
 
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
