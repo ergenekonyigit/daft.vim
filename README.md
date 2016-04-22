@@ -1,6 +1,6 @@
 daft.vim
 ========
-Highly fast, powerful and customizable Vim distribution.
+Fast and powerful Vimrc.
 
 ## Pre-requisites
 
@@ -29,8 +29,6 @@ You're all set! Enjoy!
 * `<leader>]`: Open/Close NERDTree
 * `<leader>[`: Navigate between split wiew
 * `<leader>n`: New empty tab
-* `<leader>0`: Previous tab 
-* `<leader>-`: Next tab
 * `<leader>b`: Close tab
 * `<leader>v`: Split window vertically
 * `<leader>s`: Split window horizontally
@@ -38,6 +36,8 @@ You're all set! Enjoy!
 * `<F2>`: Toggle paste mode
 * `<F5>`: Quickly reload the vimrc file
 * `=`: Land on window you chose like tmux's 'display-pane'
+* `gT`: Previous tab 
+* `gt`: Next tab
 * `C-p`: Fuzzy finder
 * `C-n`: Add the next occurrence of the selection to the multiple cursor selection	
 
