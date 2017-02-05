@@ -129,7 +129,7 @@ else
   set t_Co=256
   let g:rehash256=1
   set background=dark
-  colorscheme molokai
+  colorscheme monokai
 
 endif
 
