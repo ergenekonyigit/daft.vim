@@ -28,9 +28,6 @@ Plug 'SirVer/ultisnips'
 Plug 'majutsushi/tagbar'
 
 " Langs
-Plug 'fatih/vim-go'
-Plug 'garyburd/go-explorer'
-Plug 'rust-lang/rust.vim'
 Plug 'Rip-Rip/clang_complete'
 Plug 'klen/python-mode'
 Plug 'davidhalter/jedi-vim'
@@ -179,6 +176,7 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 nmap <C-h> <C-w>h
+nmap <C-c> <C-w>c
 
 " Split window vertically-horizontally
 nmap <leader>v <C-w>v<C-w>l
@@ -320,24 +318,6 @@ let g:ctrlp_buftag_types = {
       \ 'markdown'   : '--language-force=markdown --markdown-types=hik',
       \ 'rc'         : '--language-force=rust --rust-types=fTm'
       \ }
-
-" Vim-go Key Mappings
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_interfaces = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
-
-au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go nmap <leader>b <Plug>(go-build)
-au FileType go nmap <leader>t <Plug>(go-test)
-au FileType go nmap <Leader>c <Plug>(go-coverage)
-au FileType go nmap <Leader>gd <Plug>(go-doc)
-au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
-au FileType go nmap <Leader>gb <Plug>(go-doc-browser)
-au FileType go nmap <Leader>i <Plug>(go-info)
-au FileType go nmap <Leader>l <Plug>(go-metalinter)
 
 " delimitMate
 let g:delimitMate_expand_cr = 1

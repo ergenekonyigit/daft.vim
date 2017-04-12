@@ -30,6 +30,7 @@ You're all set! Enjoy!
 * `<leader>[`: Navigate between split wiew
 * `<leader>n`: New empty tab
 * `<leader>b`: Close tab
+* `<leader>c`: Close windows
 * `<leader>v`: Split window vertically
 * `<leader>s`: Split window horizontally
 * `<leader><space>`: Remove search highlight
