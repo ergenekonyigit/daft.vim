@@ -1,12 +1,10 @@
 daft.vim
 ========
-Fast and powerful Vimrc.
+Fast and powerful vimrc.
 
 ## Pre-requisites
 
 * To make all the plugins work, specifically [neocomplete](https://github.com/Shougo/neocomplete.vim), you need [vim with lua](https://github.com/Shougo/neocomplete.vim#requirements).
-* Download and install whatever you want: [Powerline fonts](https://github.com/powerline/fonts)
-* Select the font and you are ready.
 
 ## Installation
 
@@ -44,14 +42,4 @@ You're all set! Enjoy!
 
 ## Screenshots
 
-![Screenshot 1](http://i.imgur.com/le3jNAl.png)
-
-![Screenshot 2](http://i.imgur.com/6VJB7Du.png)
-
-![Screenshot 3](http://i.imgur.com/QkRjTil.png)
-
-![Screenshot 4](http://i.imgur.com/ox5WeBT.png)
-
-
-
-
+![Screenshot](screenshot.png)
